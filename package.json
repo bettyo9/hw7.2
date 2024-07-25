@@ -1,0 +1,22 @@
+{
+    "name": "weather-application",
+    "version": "1.0.0",
+    "description": "A simple weather application using Axios and Bootstrap for API integration and styling.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "weather",
+      "axios",
+      "bootstrap",
+      "api"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.24.0",
+      "bootstrap": "^4.5.2"
+    }
+  }
+  

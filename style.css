@@ -1,0 +1,49 @@
+/* Custom styles for Weather Application */
+
+/* Body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content within the container */
+  }
+  
+  /* Weather information styles */
+  #weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left; /* Align weather information to the left */
+  }
+  
+  #weather-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #weather-info p {
+    margin-bottom: 8px;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  
